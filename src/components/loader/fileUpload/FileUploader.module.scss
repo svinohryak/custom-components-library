@@ -1,0 +1,25 @@
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+    label {
+      width: 800px;
+        img {
+          width: 35px; 
+          cursor: pointer;
+        }
+    }
+    
+}
+
+.infoBox {
+  display: flex;
+  margin: 0 auto;
+  flex-flow: row wrap;
+  flex: 0 0 auto;
+  width: 800px;
+}
+
+// style={{ width: "35px", cursor: "pointer" }}

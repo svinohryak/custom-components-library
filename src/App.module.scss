@@ -1,0 +1,28 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  .navbar{
+    width: 20%; 
+    max-width: 100%;
+    min-width: 0;
+    height: 100vh;
+    overflow-y: auto;
+    transition: 0.3s linear; 
+  }
+  .collapsed{
+    transform: translateX(-100%);
+    max-width: 0;
+    transition: 0.3s linear;  }
+  .main {
+    min-width: 80%;
+    flex-grow: 1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    overflow-y: auto;
+    }
+    
+
+}
